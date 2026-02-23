@@ -1,0 +1,65 @@
+<svg width="480" height="260" viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="260" rx="12" ry="12" fill="#0D0D0D" />
+
+  <!-- Border -->
+  <rect x="2" y="2" width="476" height="256" rx="10" ry="10"
+        fill="none" stroke="#00FF41" stroke-width="2" />
+
+  <!-- Top accent line -->
+  <line x1="20" y1="50" x2="460" y2="50" stroke="#00FF41" stroke-width="1" />
+
+  <!-- Bottom accent line -->
+  <line x1="20" y1="210" x2="460" y2="210" stroke="#00FF41" stroke-width="1" />
+
+  <!-- Header label -->
+  <text x="24" y="34" font-family="'Courier New', monospace" font-size="11"
+        fill="#00FF41" font-weight="bold" letter-spacing="3">DEVELOPER ID CARD</text>
+
+  <!-- Card number -->
+  <text x="400" y="34" font-family="'Courier New', monospace" font-size="10"
+        fill="#00FF41" opacity="0.6">#001</text>
+
+  <!-- Pixel avatar placeholder -->
+  <rect x="24" y="62" width="70" height="70" rx="4" fill="#111" stroke="#00FF41" stroke-width="1.5" />
+  <text x="59" y="103" font-family="monospace" font-size="28" fill="#00FF41"
+        text-anchor="middle" dominant-baseline="middle">👾</text>
+
+  <!-- Name -->
+  <text x="110" y="82" font-family="'Courier New', monospace" font-size="9"
+        fill="#888">NAME</text>
+  <text x="110" y="100" font-family="'Courier New', monospace" font-size="16"
+        fill="#FFFFFF" font-weight="bold">Ade Mulyana</text>
+
+  <!-- Role -->
+  <text x="110" y="120" font-family="'Courier New', monospace" font-size="9"
+        fill="#888">ROLE</text>
+  <text x="110" y="136" font-family="'Courier New', monospace" font-size="12"
+        fill="#00FF41">Fullstack Developer</text>
+
+  <!-- Origin -->
+  <text x="24" y="165" font-family="'Courier New', monospace" font-size="9"
+        fill="#888">ORIGIN</text>
+  <text x="24" y="181" font-family="'Courier New', monospace" font-size="11"
+        fill="#FFFFFF">Indonesia 🇮🇩</text>
+
+  <!-- Stack -->
+  <text x="200" y="165" font-family="'Courier New', monospace" font-size="9"
+        fill="#888">STACK</text>
+  <text x="200" y="181" font-family="'Courier New', monospace" font-size="10"
+        fill="#FFFFFF">JS · TS · Python · Go</text>
+
+  <!-- Status dot -->
+  <circle cx="34" cy="228" r="5" fill="#00FF41">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="46" y="233" font-family="'Courier New', monospace" font-size="10"
+        fill="#00FF41">ONLINE — Building cool things...</text>
+
+</svg>
